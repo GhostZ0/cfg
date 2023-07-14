@@ -1,0 +1,226 @@
+//All commands: "holdpos", "regroup", "takingfire", "fallback", "sticktog", /*"getinpos", "stormfront", */"report", "enemyspot", "inposition", "reportingin", "getout", "enemydown", "go", "go_b", "go_a", "cheer", "roger", "sectorclear", "compliment", "thanks", /*"needrop", "sorry",*/ "negative", "needbackup", "takepoint", "coverme", "followme"
+
+"RadioPanel.txt"
+{
+
+//"SFUI_StandardRadio"
+//"SFUI_GroupRadio"	
+//"SFUI_ReportRadio"	
+	"Groups"
+	{
+		"Radio Message"
+		{
+			"hotkey"	"0"
+			"title"	"Scripts"
+			"timeout"	"5"
+
+			"Commands"
+			{
+				"ignoreradio"
+				{
+					"hotkey"	"1"
+					"label"	"Ignore Radio Messages"
+					"cmd"	"ignorerad"
+				}
+				
+				"botplace"
+				{
+					"hotkey"	"2"
+					"label"	"Place Bot"
+					"cmd"	"sv_cheats 1; bot_place"
+				}
+				
+				"botmimicon"
+				{
+					"hotkey"	"3"
+					"label"	"Bot Mimic (ON)"
+					"cmd"	"sv_cheats 1; bot_mimic_yaw_offset 0; bot_mimic 1"
+				}
+				
+				"botmimicoff"
+				{
+					"hotkey"	"4"
+					"label"	"Bot Mimic (OFF)"
+					"cmd"	"sv_cheats 1; bot_mimic_yaw_offset 0; bot_mimic 0"
+				}
+				
+				"botcrouchon"
+				{
+					"hotkey"	"5"
+					"label"	"Bot Crouch (ON)"
+					"cmd"	"sv_cheats 1; bot_crouch 1"
+				}
+				
+				"botcrouchoff"
+				{
+					"hotkey"	"6"
+					"label"	"Bot Crouch (OFF)"
+					"cmd"	"sv_cheats 1; bot_crouch 0"
+				}
+			}
+		}
+
+		"Command Radio Message"
+		{
+			"hotkey"	"1"
+			"title"	"Command Radios"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"holdpos"
+				{
+					"hotkey"	"1"
+					"label"	"Hold This Position."
+					"cmd"	"holdpos"
+				}
+				
+				"followme"
+				{
+					"hotkey"	"2"
+					"label"	"Follow Me."
+					"cmd"	"followme"
+				}
+				
+				"go"
+				{
+					"hotkey"	"3"
+					"label"	"Go go go!"
+					"cmd"	"go"
+				}
+				
+				"go_a"
+				{
+					"hotkey"	"4"
+					"label"	"Bombsite A!"
+					"cmd"	"go_a"
+				}
+				
+				"go_b"
+				{
+					"hotkey"	"5"
+					"label"	"Bombsite B!"
+					"cmd"	"go_B"
+				}
+				
+				"fallback"
+				{
+					"hotkey"	"6"
+					"label"	"Team, fall back!"
+					"cmd"	"fallback"
+				}
+				
+				"sticktog"
+				{
+					"hotkey"	"7"
+					"label"	"Stick together, team."
+					"cmd"	"sticktog"
+				}
+				
+				"getout"
+				{
+					"hotkey"	"8"
+					"label"	"Get out of there, it's gonna blow!"
+					"cmd"	"getout"
+				}
+			}
+		}
+		
+		"Standard Radio Message"
+		{
+			"hotkey"	"2"
+			"title"	"Standard Radios"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"roger"
+				{
+					"hotkey"	"1"
+					"label"	"#SFUI_Radio_Roger"
+					"cmd"	"roger"
+				}
+				
+				"negative"
+				{
+					"hotkey"	"2"
+					"label"	"#SFUI_Radio_Negative"
+					"cmd"	"negative"
+				}
+				
+				"compliment"
+				{
+					"hotkey"	"3"
+					"label"	"Nice!"
+					"cmd"	"compliment"
+				}
+				
+				"thanks"
+				{
+					"hotkey"	"4"
+					"label"	"Thanks!"
+					"cmd"	"thanks"
+				}
+			}
+		}
+		
+		"Report Radio Message"
+		{
+			"hotkey"	"3"
+			"title"	"Report Radios"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"enemyspot"
+				{
+					"hotkey"	"1"
+					"label"	"Enemy spotted."
+					"cmd"	"enemyspot"
+				}
+				
+				"takingfire"
+				{
+					"hotkey"	"2"
+					"label"		"Taking fire...need assistance!"
+					"cmd"		"takingfire"
+				}
+				
+				"needbackup"
+				{
+					"hotkey"	"3"
+					"label"	"Need backup."
+					"cmd"	"needbackup"
+				}
+				
+				"sectorclear"
+				{
+					"hotkey"	"4"
+					"label"	"Sector clear."
+					"cmd"	"sectorclear"
+				}
+				
+				"inposition"
+				{
+					"hotkey"	"5"
+					"label"	"I'm in position."
+					"cmd"	"inposition"
+				}
+				
+				"takepoint"
+				{
+					"hotkey"	"6"
+					"label"	"You take the point."
+					"cmd"	"takepoint"
+				}
+				
+				"report"
+				{
+					"hotkey"	"7"
+					"label"		"Report in, team."
+					"cmd"		"report"
+				}
+			}
+		}
+	}
+}
