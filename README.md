@@ -15,9 +15,9 @@ radial_quickinventory.txt - Changes Radial Weapon Menu to Grenades (CSGO only)
 radiopanel.txt - Changes Radio Panel to my custom layout (CSGO only)
 
 ## Where do I put these?
-auotexec-CSGO.cfg > ...\Counter-Strike Global Offensive\csgo\cfg
+auotexec-CSGO.cfg/knifechanger.cfg > ...\Counter-Strike Global Offensive\csgo\cfg
 
-autoexec.cfg/knifechanger.cfg > ...\Counter-Strike Global Offensive\game\csgo\cfg
+autoexec.cfg > ...\Counter-Strike Global Offensive\game\csgo\cfg
 
 csgo_ghostz.txt > ...\Counter-Strike Global Offensive\csgo\resource
 
