@@ -1,5 +1,5 @@
 # My Configs
-These are my custom files I use for for Counter-Strike 2/Counter-Strike: Global Offensive.
+These are my custom files I use for Counter-Strike 2/Counter-Strike: Global Offensive.
 
 ## What does this file do?
 autoexec-CSGO.cfg - My autoexec and settings for CSGO
