@@ -6,7 +6,9 @@ autoexec-CSGO.cfg - My autoexec and settings for CSGO
 
 autoexec.cfg - My autoexec and settings for CS2
 
-csgo_ghostz.txt - Custom language for custom colored text (CSGO only)
+csgo_ghostz-CSGO.txt - Custom language for custom colored text for CSGO
+
+csgo_ghostz.txt - Custom language for custom colored text for CS2
 
 knifechanger.cfg - Give yourself any vanilla knife (CSGO only)
 
@@ -19,7 +21,9 @@ auotexec-CSGO.cfg/knifechanger.cfg > ...\Counter-Strike Global Offensive\csgo\cf
 
 autoexec.cfg > ...\Counter-Strike Global Offensive\game\csgo\cfg
 
-csgo_ghostz.txt > ...\Counter-Strike Global Offensive\csgo\resource
+csgo_ghostz-CSGO.txt > ...\Counter-Strike Global Offensive\csgo\resource
+
+csgo_ghostz.txt > ...\Counter-Strike Global Offensive\game\csgo\resource
 
 radial_quickinventory.txt > ...\Counter-Strike Global Offensive\csgo
 
