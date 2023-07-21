@@ -1,0 +1,187 @@
+﻿
+"lang"
+{
+"Language" "English"
+"Tokens"
+{
+// ---------------------------------------------------------------------------------------------
+// GAMEUI_ENGLISH.txt
+
+		// Titles.txt strings
+		"Cstrike_TitlesTXT_Bomb_Defused"									"Bomb defused"
+		"Cstrike_TitlesTXT_Bomb_Planted"									"Bomb planted\n%s1 seconds left"
+		"Cstrike_TitlesTXT_Defusing_Bomb"							"Defusing!"
+		"Cstrike_TitlesTXT_Planting_Bomb"							"Planting!"
+		
+		"Cstrike_TitlesTXT_Game_teammate_attack"							"%s1 attacked a teammate"
+
+		"Game_radio"					"%s1 : %s2"
+		"Game_radio_location"				"%s1 (%s2) : %s3"
+		"Cstrike_Chat_CT_Loc"				"(CT) %s1 (%s3) : %s2"
+		"Cstrike_Chat_CT"				"(CT) %s1 : %s2"
+		"Cstrike_Chat_T_Loc"				"(T) %s1 (%s3) : %s2"
+		"Cstrike_Chat_T"				"(T) %s1 : %s2"
+		"Cstrike_Chat_CT_Dead"				"*DEAD*(CT) %s1 : %s2"
+		"Cstrike_Chat_T_Dead"				"*DEAD*(T) %s1 : %s2"
+		"Cstrike_Chat_Spec"				"(SPEC) %s1 : %s2"
+
+
+		"Cstrike_game_join_spectators"	"%s1 > Spectators\n"
+		"Cstrike_game_join_terrorist"	"%s1 > 	T\n"
+		"Cstrike_game_join_ct"			"%s1 > CT\n"
+
+		"TabletNotification_IncomingDelivery"		"Incoming Delivery"
+		"TabletNotification_HighlightedSectors"		"[{v:csgo_bind:bind_buymenu}] Buy Menu"
+		"TabletNotification_ExplorationPayment"		"Exploration +${d:exploreprice}"
+		"TabletNotification_ExplorationPayment_Bonus" "Exploration +${d:exploreprice} & +${d:explorebonus}"
+		"TabletNotification_BombWaveMoney"			"Survival +${d:surviveprice}"
+		"TabletNotification_BombWaveMoney_Bonus"	"Survival +${d:surviveprice} & +${d:survivebonus}"
+		"TabletNotification_NoDronesToControl"		"No drones are available."
+
+		"TabletBuyMenu"				"[{v:csgo_bind:bind_buymenu}] Map"
+		"TabletHintMap"				" "
+		"TabletHintBuy"				"[{s:bind_buymenu}] Close"
+		"TabletHintClose"			" "
+
+		"Player_Cash_Award_Kill_Teammate"		" -$%s1 • Team kill"
+		"Player_Cash_Award_Killed_VIP"			" +$%s1 • VIP kill"
+		"Player_Cash_Award_Killed_Enemy_Generic" " +$%s1 • Kill"
+		"Player_Cash_Award_Killed_Enemy"		" +$%s1 • %s2"
+		"Player_Cash_Award_Bomb_Planted"		" +$%s1 • C4 planted"
+		"Player_Cash_Award_Bomb_Defused"		" +$%s1 • C4 defused"
+		"Player_Cash_Award_Rescued_Hostage"		" +$%s1 • Hostage rescued"
+		"Player_Cash_Award_Interact_Hostage"	" +$%s1 • Hostage reached"
+		"Player_Cash_Award_Respawn"				" +$%s1 • Respawn"
+		"Player_Cash_Award_Get_Killed"			" +$%s1 • Award for being eliminated"
+		"Player_Cash_Award_Damage_Hostage"		" -$%s1 • Hostage wounded"
+		"Player_Cash_Award_Kill_Hostage"		" -$%s1 • Hostage killed"
+
+		"Player_Cash_Award_ExplainSuicide_YouGotCash"			"(+$%s2 for the suicide of %s1)"
+		"Player_Cash_Award_ExplainSuicide_TeammateGotCash"		"Teammate %s3 was awarded +$%s2 for the suicide of %s1"
+		"Player_Cash_Award_ExplainSuicide_EnemyGotCash"			"Enemy player was awarded for the suicide of %s1"
+		"Player_Cash_Award_ExplainSuicide_Spectators"			" %s3 was awarded +$%s2 for the suicide of %s1"
+
+		"Team_Cash_Award_T_Win_Bomb"						" +$%s1 • C4 detonated"
+		"Team_Cash_Award_Elim_Hostage"						" +$%s1 • Team elimination"
+		"Team_Cash_Award_Elim_Bomb"							" +$%s1 • Team elimination"
+		"Team_Cash_Award_Win_Time"							" +$%s1 • Out of time"
+		"Team_Cash_Award_Win_Defuse_Bomb"					" +$%s1 • C4 defused"
+		"Team_Cash_Award_Win_Hostages_Rescue"				" +$%s1 • Hostages rescued"
+		"Team_Cash_Award_Win_Hostage_Rescue"				" +$%s1 • Hostage rescued"
+		"Team_Cash_Award_Loser_Bonus"						" +$%s1 • Round lost"
+		"Team_Cash_Award_Bonus_Shorthanded"					" +$%s1: Income for being short-handed"
+		"Team_Cash_Award_Loser_Bonus_Neg"					" -$%s1: Income for losing"
+		"Team_Cash_Award_Loser_Zero"						" -$%s1 • Income for dead players on losing team."
+		"Team_Cash_Award_Rescued_Hostage"					" +$%s1 • Hostage rescued"
+		"Team_Cash_Award_Hostage_Interaction"				" +$%s1 • Hostage reached"
+		"Team_Cash_Award_Hostage_Alive"						" +$%s1 • Hostages survived"
+		"Team_Cash_Award_Planted_Bomb_But_Defused"			" +$%s1 • C4 planted"
+		"Team_Cash_Award_Survive_GuardianMode_Wave"				" +$%s1: Team award for surviving the wave"
+		"Team_Cash_Award_CT_VIP_Escaped"					" +$%s1: Team award for evac'ing the VIP"
+		"Team_Cash_Award_T_VIP_Killed"						" +$%s1: Team award for neutralizing the VIP"
+		"Team_Cash_Award_no_income"							" +$0 • Out of time and survived"
+		"Team_Cash_Award_no_income_suicide"					" +$0 • Suicide"
+		"Team_Cash_Award_Generic"							" +$%s1 • Team award"
+		"Team_Cash_Award_Custom"							" +$%s1 • %s2"
+
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		//Main Menu
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		"advertising_for_hire_competitive"						"Competitive"
+		"advertising_for_hire_scrimcomp2v2"						"Wingman"
+		"advertising_for_hire_survival"							"Danger Zone"
+		"advertising_for_hire_cooperative"						"Guardian"
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		"CSGO_Inventory_Team_Any"						""
+		"CSGO_Inventory_Team_CT"						""
+		"CSGO_Inventory_Team_T"							""
+
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		//Notice Text
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		"SFUI_Notice_Got_Bomb"							"You got the bomb"
+
+		"SFUI_Notice_Hint_Bot_Takeover"					"PLAYING AS BOT {s:s1}"
+
+		"SFUI_Notice_YouDroppedWeapon"				"Dropped %s1"
+
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		// Grenade Text
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		"SFUI_TitlesTXT_Fire_in_the_hole"			"Grenade!"
+		"SFUI_TitlesTXT_Molotov_in_the_hole"		"Molotov!"
+		"SFUI_TitlesTXT_Incendiary_in_the_hole"		"Incendiary!"
+		"SFUI_TitlesTXT_Flashbang_in_the_hole"		"Flash!"
+		"SFUI_TitlesTXT_Smoke_in_the_hole"			"Smoke!"
+		"SFUI_TitlesTXT_Decoy_in_the_hole"			"Decoy!"
+
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		//Play menu
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		
+		// Accept Match Popup
+		"match_ready_title"					"YOU HAVE FOUND A MATCH!"
+		"match_ready_accept"				"READY"
+
+		// Play Main dropdown
+		"play_setting_online"				"Online"
+		"play_setting_offline"				"Offline"
+		"play_setting_community"			"Community Servers"
+
+
+		//////////////////////////////////////////////////////////////////
+		//
+		//	END OF MATCH
+		//
+		///////////////////////////////////////////////////////////
+		
+		"Survival_TeammateRespawned"					"Teammate respawned!"
+		"Survival_RespawnEndWarning"					"Respawn ends in {t:d:timeleft}"
+		"Survival_RespawningDisabled"					"No more respawns!"
+		"Survival_Respawn_Cooldown_Too_Long"			"No more respawns!"
+
+
+		//////////////////////////////////////////////////////////////////
+		//
+		//	RETICLE PANEL
+		//
+		///////////////////////////////////////////////////////////
+
+		"Panorama_HUD_playerid_sameteam"			"<font color='#00FF00'>{g:player_name:player_slot} - {d:player_health}%</font>"
+		"Panorama_HUD_playerid_diffteam"			"<font color='#FF0000'>{g:player_name:player_slot}</font>"
+
+		//////////////////////////////////////////////////////////////////
+		//
+		//	DEATH PANEL
+		//
+		///////////////////////////////////////////////////////////
+
+		"Panorama_Death_Snapshot"						""
+
+
+// SFUI_ENGLISH.txt
+// ---------------------------------------------------------------------------------------------
+}
+
+// - White
+// - Red
+// - Team color (may cause player's color dot before symbol)
+// - Green
+// - Light green
+// - Green(money awards)
+// - Light red
+// - CT color
+//	 - T color
+// - Light blue
+// - Blue
+// - Violet
+// - Light red 2
+
+}
+
+
