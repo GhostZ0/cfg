@@ -1,4 +1,4 @@
-﻿
+
 "lang"
 {
 "Language" "English"
@@ -30,6 +30,8 @@
 		"Cstrike_game_join_terrorist"	"%s1 > 	T\n"
 		"Cstrike_game_join_ct"			"%s1 > CT\n"
 
+		"SFUI_WPNHUD_C4"			"Bomb"
+
 		"TabletNotification_IncomingDelivery"		"Incoming Delivery"
 		"TabletNotification_HighlightedSectors"		"[{v:csgo_bind:bind_buymenu}] Buy Menu"
 		"TabletNotification_ExplorationPayment"		"Exploration +${d:exploreprice}"
@@ -39,16 +41,16 @@
 		"TabletNotification_NoDronesToControl"		"No drones are available."
 
 		"TabletBuyMenu"				"[{v:csgo_bind:bind_buymenu}] Map"
-		"TabletHintMap"				" "
+		"TabletHintMap"				""
 		"TabletHintBuy"				"[{s:bind_buymenu}] Close"
-		"TabletHintClose"			" "
+		"TabletHintClose"			""
 
 		"Player_Cash_Award_Kill_Teammate"		" -$%s1 • Team kill"
 		"Player_Cash_Award_Killed_VIP"			" +$%s1 • VIP kill"
 		"Player_Cash_Award_Killed_Enemy_Generic" " +$%s1 • Kill"
 		"Player_Cash_Award_Killed_Enemy"		" +$%s1 • %s2"
-		"Player_Cash_Award_Bomb_Planted"		" +$%s1 • C4 planted"
-		"Player_Cash_Award_Bomb_Defused"		" +$%s1 • C4 defused"
+		"Player_Cash_Award_Bomb_Planted"		" +$%s1 • Bomb planted"
+		"Player_Cash_Award_Bomb_Defused"		" +$%s1 • Bomb defused"
 		"Player_Cash_Award_Rescued_Hostage"		" +$%s1 • Hostage rescued"
 		"Player_Cash_Award_Interact_Hostage"	" +$%s1 • Hostage reached"
 		"Player_Cash_Award_Respawn"				" +$%s1 • Respawn"
@@ -61,11 +63,11 @@
 		"Player_Cash_Award_ExplainSuicide_EnemyGotCash"			"Enemy player was awarded for the suicide of %s1"
 		"Player_Cash_Award_ExplainSuicide_Spectators"			" %s3 was awarded +$%s2 for the suicide of %s1"
 
-		"Team_Cash_Award_T_Win_Bomb"						" +$%s1 • C4 detonated"
+		"Team_Cash_Award_T_Win_Bomb"						" +$%s1 • Bomb detonated"
 		"Team_Cash_Award_Elim_Hostage"						" +$%s1 • Team elimination"
 		"Team_Cash_Award_Elim_Bomb"							" +$%s1 • Team elimination"
 		"Team_Cash_Award_Win_Time"							" +$%s1 • Out of time"
-		"Team_Cash_Award_Win_Defuse_Bomb"					" +$%s1 • C4 defused"
+		"Team_Cash_Award_Win_Defuse_Bomb"					" +$%s1 • Bomb defused"
 		"Team_Cash_Award_Win_Hostages_Rescue"				" +$%s1 • Hostages rescued"
 		"Team_Cash_Award_Win_Hostage_Rescue"				" +$%s1 • Hostage rescued"
 		"Team_Cash_Award_Loser_Bonus"						" +$%s1 • Round lost"
@@ -75,7 +77,7 @@
 		"Team_Cash_Award_Rescued_Hostage"					" +$%s1 • Hostage rescued"
 		"Team_Cash_Award_Hostage_Interaction"				" +$%s1 • Hostage reached"
 		"Team_Cash_Award_Hostage_Alive"						" +$%s1 • Hostages survived"
-		"Team_Cash_Award_Planted_Bomb_But_Defused"			" +$%s1 • C4 planted"
+		"Team_Cash_Award_Planted_Bomb_But_Defused"			" +$%s1 • Bomb planted"
 		"Team_Cash_Award_Survive_GuardianMode_Wave"				" +$%s1: Team award for surviving the wave"
 		"Team_Cash_Award_CT_VIP_Escaped"					" +$%s1: Team award for evac'ing the VIP"
 		"Team_Cash_Award_T_VIP_Killed"						" +$%s1: Team award for neutralizing the VIP"
@@ -84,20 +86,20 @@
 		"Team_Cash_Award_Generic"							" +$%s1 • Team award"
 		"Team_Cash_Award_Custom"							" +$%s1 • %s2"
 
-		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-		//Main Menu
-		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-		"advertising_for_hire_competitive"						"Competitive"
-		"advertising_for_hire_scrimcomp2v2"						"Wingman"
-		"advertising_for_hire_survival"							"Danger Zone"
-		"advertising_for_hire_cooperative"						"Guardian"
-
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 		"CSGO_Inventory_Team_Any"						""
 		"CSGO_Inventory_Team_CT"						""
 		"CSGO_Inventory_Team_T"							""
+
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+		//HUD: Help/Medals/Defuse Info Panel
+		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		"SFUIHUD_InfoPanel_DefuseText"			"Defusing."
+		"SFUIHUD_InfoPanel_DefuseText_NoKit"	"Defusing without a kit."
+		"SFUIHUD_InfoPanel_Spec_DefuseText"			"{s:s1} is defusing."
+		"SFUIHUD_InfoPanel_Spec_DefuseText_NoKit"	"{s:s1} is defusing\nwithout a kit."
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Notice Text
@@ -126,7 +128,6 @@
 		
 		// Accept Match Popup
 		"match_ready_title"					"YOU HAVE FOUND A MATCH!"
-		"match_ready_accept"				"READY"
 
 		// Play Main dropdown
 		"play_setting_online"				"Online"
