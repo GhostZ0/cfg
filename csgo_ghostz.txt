@@ -17,14 +17,13 @@
 
 		"Game_radio"					"%s1 : %s2"
 		"Game_radio_location"				"%s1 (%s2) : %s3"
-		"Cstrike_Chat_CT_Loc"				"(CT) %s1 (%s3) : %s2"
-		"Cstrike_Chat_CT"				"(CT) %s1 : %s2"
-		"Cstrike_Chat_T_Loc"				"(T) %s1 (%s3) : %s2"
-		"Cstrike_Chat_T"				"(T) %s1 : %s2"
-		"Cstrike_Chat_CT_Dead"				"*DEAD*(CT) %s1 : %s2"
-		"Cstrike_Chat_T_Dead"				"*DEAD*(T) %s1 : %s2"
-		"Cstrike_Chat_Spec"				"(SPEC) %s1 : %s2"
-
+		"Cstrike_Chat_CT_Loc"				"(CT) %s1 (%s3) : %s2"
+		"Cstrike_Chat_CT"				"(CT) %s1 : %s2"
+		"Cstrike_Chat_T_Loc"				"(T) %s1 (%s3) : %s2"
+		"Cstrike_Chat_T"				"(T) %s1 : %s2"
+		"Cstrike_Chat_CT_Dead"				"*DEAD*(CT) %s1 : %s2"
+		"Cstrike_Chat_T_Dead"				"*DEAD*(T) %s1 : %s2"
+		"Cstrike_Chat_Spec"				"(SPEC) %s1 : %s2"
 
 		"Cstrike_game_join_spectators"	"%s1 > Spectators\n"
 		"Cstrike_game_join_terrorist"	"%s1 > 	T\n"
@@ -71,20 +70,25 @@
 		"Team_Cash_Award_Win_Hostages_Rescue"				" +$%s1 • Hostages rescued"
 		"Team_Cash_Award_Win_Hostage_Rescue"				" +$%s1 • Hostage rescued"
 		"Team_Cash_Award_Loser_Bonus"						" +$%s1 • Round lost"
-		"Team_Cash_Award_Bonus_Shorthanded"					" +$%s1: Income for being short-handed"
-		"Team_Cash_Award_Loser_Bonus_Neg"					" -$%s1: Income for losing"
-		"Team_Cash_Award_Loser_Zero"						" -$%s1 • Income for dead players on losing team."
+		"Team_Cash_Award_Bonus_Shorthanded"					" +$%s1 • Short-handed"
+		"Team_Cash_Award_Loser_Bonus_Neg"					" -$%s1 • Losing"
+		"Team_Cash_Award_Loser_Zero"						" -$%s1 • Dead players on losing team"
 		"Team_Cash_Award_Rescued_Hostage"					" +$%s1 • Hostage rescued"
 		"Team_Cash_Award_Hostage_Interaction"				" +$%s1 • Hostage reached"
 		"Team_Cash_Award_Hostage_Alive"						" +$%s1 • Hostages survived"
 		"Team_Cash_Award_Planted_Bomb_But_Defused"			" +$%s1 • Bomb planted"
-		"Team_Cash_Award_Survive_GuardianMode_Wave"				" +$%s1: Team award for surviving the wave"
+		"Team_Cash_Award_Survive_GuardianMode_Wave"				" +$%s1 • Survived wave"
 		"Team_Cash_Award_CT_VIP_Escaped"					" +$%s1: Team award for evac'ing the VIP"
 		"Team_Cash_Award_T_VIP_Killed"						" +$%s1: Team award for neutralizing the VIP"
 		"Team_Cash_Award_no_income"							" +$0 • Out of time and survived"
 		"Team_Cash_Award_no_income_suicide"					" +$0 • Suicide"
 		"Team_Cash_Award_Generic"							" +$%s1 • Team award"
 		"Team_Cash_Award_Custom"							" +$%s1 • %s2"
+
+		"DeathPanel_DamageTaken"		"<font color='#A0A0A0'>Damage taken:  </font><font color='#FF0000'><b>%s1</b></font> <font color='#A0A0A0'> in</font> <font color='#FF0000'><b>%s2 hit </b></font> <font color='#A0A0A0'>from %s3</font>"
+		"DeathPanel_DamageGiven"		"<font color='#A0A0A0'>Damage given:  </font><font color='#00FF00'><b>%s1</b></font> <font color='#A0A0A0'> in</font> <font color='#00FF00'><b>%s2 hit </b></font> <font color='#A0A0A0'>to %s3</font>"
+		"DeathPanel_DamageTaken_Multi"		"<font color='#A0A0A0'>Damage taken:  </font><font color='#FF0000'><b>%s1</b></font> <font color='#A0A0A0'> in</font> <font color='#FF0000'><b>%s2 hits </b></font> <font color='#A0A0A0'>from %s3</font>"
+		"DeathPanel_DamageGiven_Multi"		"<font color='#A0A0A0'>Damage given:  </font><font color='#00FF00'><b>%s1</b></font> <font color='#A0A0A0'> in</font> <font color='#00FF00'><b>%s2 hits </b></font> <font color='#A0A0A0'>to %s3</font>"
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -106,9 +110,7 @@
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 		"SFUI_Notice_Got_Bomb"							"You got the bomb"
-
 		"SFUI_Notice_Hint_Bot_Takeover"					"PLAYING AS BOT {s:s1}"
-
 		"SFUI_Notice_YouDroppedWeapon"				"Dropped %s1"
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -132,8 +134,8 @@
 		// Play Main dropdown
 		"play_setting_online"				"Online"
 		"play_setting_offline"				"Offline"
+		"play_setting_workshop"				"Workshop"
 		"play_setting_community"			"Community Servers"
-
 
 		//////////////////////////////////////////////////////////////////
 		//
@@ -145,7 +147,6 @@
 		"Survival_RespawnEndWarning"					"Respawn ends in {t:d:timeleft}"
 		"Survival_RespawningDisabled"					"No more respawns!"
 		"Survival_Respawn_Cooldown_Too_Long"			"No more respawns!"
-
 
 		//////////////////////////////////////////////////////////////////
 		//
