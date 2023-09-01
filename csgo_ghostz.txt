@@ -29,6 +29,8 @@
 		"Cstrike_game_join_terrorist"	"%s1 > 	T\n"
 		"Cstrike_game_join_ct"			"%s1 > CT\n"
 
+		"SFUI_WPNHUD_HE_Grenade"	"HE Grenade"
+		"SFUI_WPNHUD_HEGrenade"		"HE Grenade"
 		"SFUI_WPNHUD_C4"			"Bomb"
 
 		"TabletNotification_IncomingDelivery"		"Incoming Delivery"
