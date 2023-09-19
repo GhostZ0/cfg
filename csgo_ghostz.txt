@@ -8,20 +8,20 @@
 		// Titles.txt strings
 		"Cstrike_TitlesTXT_Bomb_Defused"									"Bomb defused"
 		"Cstrike_TitlesTXT_Bomb_Planted"									"Bomb planted\n%s1 seconds left"
-		"Cstrike_TitlesTXT_Defusing_Bomb"							"Defusing!"
-		"Cstrike_TitlesTXT_Planting_Bomb"							"Planting!"
+		"Cstrike_TitlesTXT_Defusing_Bomb"							"*Defusing*"
+		"Cstrike_TitlesTXT_Planting_Bomb"							"*Planting*"
 		
 		"Cstrike_TitlesTXT_Game_teammate_attack"							"%s1 attacked a teammate"
 
 		"Game_radio"					"%s1 : %s2"
-		"Game_radio_location"				"%s1 @ %s2 : %s3"
-		"Cstrike_Chat_CT_Loc"				"(CT) %s1 @ %s3 : %s2"
+		"Game_radio_location"				"%s1 @ %s2 : %s3"
+		"Cstrike_Chat_CT_Loc"				"(CT) %s1 @ %s3 : %s2"
 		"Cstrike_Chat_CT"				"(CT) %s1 : %s2"
-		"Cstrike_Chat_T_Loc"				"(T) %s1 @ %s3 : %s2"
+		"Cstrike_Chat_T_Loc"				"(T) %s1 @ %s3 : %s2"
 		"Cstrike_Chat_T"				"(T) %s1 : %s2"
 		"Cstrike_Chat_CT_Dead"				"*DEAD*(CT) %s1 : %s2"
 		"Cstrike_Chat_T_Dead"				"*DEAD*(T) %s1 : %s2"
-		"Cstrike_Chat_Spec"				"(SPEC) %s1 : %s2"
+		"Cstrike_Chat_Spec"				"(SPEC) %s1 : %s2"
         "Cstrike_Chat_All"				"%s1 : %s2"
 		"Cstrike_Chat_AllDead"				"*DEAD* %s1 : %s2"
         "Cstrike_Chat_AllSpec"				"*SPEC* %s1 : %s2"
@@ -50,7 +50,7 @@
 		"Player_Cash_Award_Kill_Teammate"		" -$%s1 • Teamkill"
 		"Player_Cash_Award_Killed_VIP"			" +$%s1 • VIP kill"
 		"Player_Cash_Award_Killed_Enemy_Generic" " +$%s1 • Kill"
-		"Player_Cash_Award_Killed_Enemy"		" +$%s1 • %s2 kill"
+		"Player_Cash_Award_Killed_Enemy"		" +$%s1 • %s2 kill"
 		"Player_Cash_Award_Bomb_Planted"		" +$%s1 • Bomb planted"
 		"Player_Cash_Award_Bomb_Defused"		" +$%s1 • Bomb defused"
 		"Player_Cash_Award_Rescued_Hostage"		" +$%s1 • Hostage rescued"
@@ -60,12 +60,12 @@
 		"Player_Cash_Award_Damage_Hostage"		" -$%s1 • Hostage wounded"
 		"Player_Cash_Award_Kill_Hostage"		" -$%s1 • Hostage killed"
 
-        "Player_Point_Award_Killed_Enemy"                   " %s1 point • Kill with %s2"
-        "Player_Point_Award_Killed_Enemy_Plural"            " %s1 points • Kill with %s2"
-        "Player_Point_Award_Killed_Enemy_NoWeapon"          " %s1 point • Kill"
-        "Player_Point_Award_Killed_Enemy_NoWeapon_Plural"   " %s1 points • Kill"
-        "Player_Point_Award_Assist_Enemy"                   " %s1 point • Assisted killing %s2"
-        "Player_Point_Award_Assist_Enemy_Plural"            " %s1 points • Assisted killing %s2"
+        "Player_Point_Award_Killed_Enemy"                   " +%s1 point • %s2 kill"
+        "Player_Point_Award_Killed_Enemy_Plural"            " +%s1 points • %s2 kill"
+        "Player_Point_Award_Killed_Enemy_NoWeapon"          " +%s1 point • Kill"
+        "Player_Point_Award_Killed_Enemy_NoWeapon_Plural"   " +%s1 points • Kill"
+        "Player_Point_Award_Assist_Enemy"                   " +%s1 point • Assist killing %s2"
+        "Player_Point_Award_Assist_Enemy_Plural"            " +%s1 points • Assist killing %s2"
 
 		"Player_Cash_Award_ExplainSuicide_YouGotCash"			"(+$%s2 for the suicide of %s1)"
 		"Player_Cash_Award_ExplainSuicide_TeammateGotCash"		"%s3 got +$%s2 for the suicide of %s1"
@@ -94,6 +94,8 @@
 		"Team_Cash_Award_no_income_suicide"					" +$0 • Suicide"
 		"Team_Cash_Award_Generic"							" +$%s1 • Team award"
 		"Team_Cash_Award_Custom"							" +$%s1 • %s2"
+
+		"Notice_Teammate_Death_Location"				"%s1 died @ %s2"
 
 		"DeathPanel_DamageTaken"		"<font color='#A0A0A0'>Damage taken:  </font><font color='#FF0000'><b>%s1</b></font> <font color='#A0A0A0'> in</font> <font color='#FF0000'><b>%s2 hit </b></font> <font color='#A0A0A0'>from %s3</font>"
 		"DeathPanel_DamageGiven"		"<font color='#A0A0A0'>Damage given:  </font><font color='#00FF00'><b>%s1</b></font> <font color='#A0A0A0'> in</font> <font color='#00FF00'><b>%s2 hit </b></font> <font color='#A0A0A0'>to %s3</font>"
@@ -127,12 +129,12 @@
 		// Grenade Text
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-		"SFUI_TitlesTXT_Fire_in_the_hole"			"Grenade!"
-		"SFUI_TitlesTXT_Molotov_in_the_hole"		"Molotov!"
-		"SFUI_TitlesTXT_Incendiary_in_the_hole"		"Incendiary!"
-		"SFUI_TitlesTXT_Flashbang_in_the_hole"		"Flash!"
-		"SFUI_TitlesTXT_Smoke_in_the_hole"			"Smoke!"
-		"SFUI_TitlesTXT_Decoy_in_the_hole"			"Decoy!"
+		"SFUI_TitlesTXT_Fire_in_the_hole"			"*Grenade*"
+		"SFUI_TitlesTXT_Molotov_in_the_hole"		"*Molotov*"
+		"SFUI_TitlesTXT_Incendiary_in_the_hole"		"*Incendiary*"
+		"SFUI_TitlesTXT_Flashbang_in_the_hole"		"*Flash*"
+		"SFUI_TitlesTXT_Smoke_in_the_hole"			"*Smoke*"
+		"SFUI_TitlesTXT_Decoy_in_the_hole"			"*Decoy*"
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Play menu
