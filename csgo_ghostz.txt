@@ -14,7 +14,7 @@
 		"Cstrike_TitlesTXT_Game_teammate_attack"							"%s1 attacked a teammate"
 
 		"Game_radio"					"%s1 : %s2"
-		"Game_radio_location"				"%s1 @ %s2 : %s3"
+		"Game_radio_location"				"%s1 @ %s2 : %s3"
 		"Cstrike_Chat_CT_Loc"				"(CT) %s1 @ %s3 : %s2"
 		"Cstrike_Chat_CT"				"(CT) %s1 : %s2"
 		"Cstrike_Chat_T_Loc"				"(T) %s1 @ %s3 : %s2"
