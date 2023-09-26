@@ -10,16 +10,18 @@ csgo_ghostz-CSGO.txt - Custom language for custom colored text for CSGO
 
 csgo_ghostz.txt - Custom language for custom colored text for CS2
 
-knifechanger.cfg - Give yourself any vanilla knife (CSGO only)
+knifechanger-CSGO.cfg - Give yourself any vanilla knife for CSGO
 
-radial_quickinventory.txt - Changes Radial Weapon Menu to Grenades (CSGO only)
+knifechanger.cfg - Give yourself any vanilla knife for CS2
 
-radiopanel.txt - Changes Radio Panel to my custom layout (CSGO only)
+radial_quickinventory.txt - Changes Radial Weapon Menu to Grenades
+
+radiopanel.txt - Changes Radio Panel to my custom layout
 
 ## Where do I put these?
-auotexec-CSGO.cfg/knifechanger.cfg > ...\Counter-Strike Global Offensive\csgo\cfg
+auotexec-CSGO.cfg/knifechanger-CSGO.cfg > ...\Counter-Strike Global Offensive\csgo\cfg
 
-autoexec.cfg > ...\Counter-Strike Global Offensive\game\csgo\cfg
+autoexec.cfg/knifechanger.cfg > ...\Counter-Strike Global Offensive\game\csgo\cfg
 
 csgo_ghostz-CSGO.txt > ...\Counter-Strike Global Offensive\csgo\resource
 
