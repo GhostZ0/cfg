@@ -1,5 +1,3 @@
-// LAST EDITED JUNE 24, 2019
-
 "lang"
 {
 "Language" "English"
@@ -10,34 +8,13 @@
 	
 		"match_ready_title"					"YOU HAVE FOUND A MATCH!"
 		"match_ready_accept"				"READY"
-		
-	// SKILL GROUPS
-	
-		"skillgroup_1"						"Silver I"
-		"skillgroup_2"						"Silver II"
-		"skillgroup_3"						"Silver III"
-		"skillgroup_4"						"Silver IV"
-		"skillgroup_5"						"Silver Elite"
-		"skillgroup_6"						"Silver Elite Master"
-		"skillgroup_7"						"Gold Nova I"
-		"skillgroup_8"						"Gold Nova II"
-		"skillgroup_9"						"Gold Nova III"
-		"skillgroup_10"						"Gold Nova Master"
-		"skillgroup_11"						"Master Guardian I"
-		"skillgroup_12"						"Master Guardian II"
-		"skillgroup_13"						"Master Guardian Elite"
-		"skillgroup_14"						"Distinguished Master Guardian"
-		"skillgroup_15"						"Legendary Eagle"
-		"skillgroup_16"						"Legendary Eagle Master"
-		"skillgroup_17"						"Supreme Master First Class"
-		"skillgroup_18"						"The Global Elite"
 	
 	// PLAY OPTIONS (MENUS)
 	
 		"play_setting_online"				"Online"
 		"play_setting_offline"				"Offline"
 		"play_setting_training_course"		"Training Course"
-		"play_setting_workshop"				"Workshop Maps"
+		"play_setting_workshop"				"Workshop"
 		"play_setting_community"			"Community Servers"
 		
 	// INVENTORY TEAM INFO
@@ -45,14 +22,6 @@
 		"CSGO_Inventory_Team_Any"			""
 		"CSGO_Inventory_Team_CT"			""
 		"CSGO_Inventory_Team_T"				""
-		
-	// INVENTORY EXTERIOR
-		
-		"SFUI_InvTooltip_Wear_Amount_0"		"Factory New"
-		"SFUI_InvTooltip_Wear_Amount_1"		"Minimal Wear"
-		"SFUI_InvTooltip_Wear_Amount_2"		"Field-Tested"
-		"SFUI_InvTooltip_Wear_Amount_3"		"Well-Worn"
-		"SFUI_InvTooltip_Wear_Amount_4"		"Battle-Scarred"
 		
 	// NOW PLAYING INFORMATION (IN-GAME)
 	
@@ -95,7 +64,7 @@
 		
 	// JOIN MESSAGE (CHAT)
 		
-		"Cstrike_game_join_spectators"			"%s1 > Spectators\n"
+		"Cstrike_game_join_spectators"			"%s1 > Spectators\n"
 		"Cstrike_game_join_terrorist"			"%s1 > 	T\n"
 		"Cstrike_game_join_ct"					"%s1 > CT\n"
 		
@@ -105,8 +74,8 @@
 		
 	// PLANTING/DEFUSING MESSAGES (CHAT)
 		
-		"Cstrike_TitlesTXT_Defusing_Bomb"				"* Defusing *"
-		"Cstrike_TitlesTXT_Planting_Bomb"				"* Planting *"
+		"Cstrike_TitlesTXT_Defusing_Bomb"				"*Defusing*"
+		"Cstrike_TitlesTXT_Planting_Bomb"				"*Planting*"
 		
 	// YES/NO RADIO RESPONSE (CHAT)
 	
@@ -116,50 +85,50 @@
 		
 	// AWARD MESSAGES (CHAT)
 		
-		"Player_Cash_Award_ExplainSuicide_YouGotCash"			"(+$%s2 for the suicide of %s1)"
-		"Player_Cash_Award_ExplainSuicide_TeammateGotCash"		"Teammate %s3 was awarded +$%s2 for the suicide of %s1."
+		"Player_Cash_Award_ExplainSuicide_YouGotCash"			"(+$%s2 for the suicide of %s1)"
+		"Player_Cash_Award_ExplainSuicide_TeammateGotCash"		"%s3 got +$%s2 for the suicide of %s1."
 		"Player_Cash_Award_ExplainSuicide_EnemyGotCash"			"Enemy player was awarded for the suicide of %s1."
-		"Player_Cash_Award_ExplainSuicide_Spectators"			" %s3 was awarded +$%s2 for the suicide of %s1."
+		"Player_Cash_Award_ExplainSuicide_Spectators"			" %s3 got +$%s2 for the suicide of %s1."
 		
 	// CASH AWARD MESSAGES (CHAT)
 		
-		"Player_Cash_Award_Kill_Teammate"				"%s1 • Teamkill"
-		"Player_Cash_Award_Killed_Enemy_Generic" 		"%s1 • Kill"
-		"Player_Cash_Award_Killed_Enemy"				"%s1 • %s2"
-		"Player_Cash_Award_Bomb_Planted"				"%s1 • C4 planted"
-		"Player_Cash_Award_Bomb_Defused"				"%s1 • C4 defused"
-		"Player_Cash_Award_Rescued_Hostage"				"%s1 • Hostage rescued"
-		"Player_Cash_Award_Interact_Hostage"			"%s1 • Hostage reached"
-		"Player_Cash_Award_Respawn"						"%s1 • Respawn"
-		"Player_Cash_Award_Get_Killed"					"%s1 • Award for being eliminated"
-		"Player_Cash_Award_Damage_Hostage"				"%s1 • Hostage wounded"
-		"Player_Cash_Award_Kill_Hostage"				"%s1 • Hostage killed"		
-		"Team_Cash_Award_T_Win_Bomb"					"%s1 • C4 detonated"
-		"Team_Cash_Award_Elim_Hostage"					"%s1 • Team elimination"
-		"Team_Cash_Award_Elim_Bomb"						"%s1 • Team elimination"
-		"Team_Cash_Award_Win_Time"						"%s1 • Time is up"
-		"Team_Cash_Award_Win_Defuse_Bomb"				"%s1 • C4 defused"
-		"Team_Cash_Award_Win_Hostages_Rescue"			"%s1 • Hostages rescued"
-		"Team_Cash_Award_Win_Hostage_Rescue"			"%s1 • Hostage rescued"
-		"Team_Cash_Award_Loser_Bonus"					"%s1 • Round lost"
-		"Team_Cash_Award_Loser_Zero"					"%s1 • Income for dead players on losing team."
-		"Team_Cash_Award_Rescued_Hostage"				"%s1 • Hostage rescued"
-		"Team_Cash_Award_Hostage_Interaction"			"%s1 • Hostage reached"
-		"Team_Cash_Award_Hostage_Alive"					"%s1 • Hostages survived"
-		"Team_Cash_Award_Planted_Bomb_But_Defused"		"%s1 • C4 planted"
-		"Team_Cash_Award_no_income"						"$0 • Out of time and survived"
-		"Team_Cash_Award_no_income_suicide"				"$0 • Suicide"
-		"Team_Cash_Award_Generic"						"%s1 • Team award"
-		"Team_Cash_Award_Custom"						"%s1 • %s2"
+		"Player_Cash_Award_Kill_Teammate"				" -$%s1 • Teamkill"
+		"Player_Cash_Award_Killed_Enemy_Generic" 		" +$%s1 • Kill"
+		"Player_Cash_Award_Killed_Enemy"				" +$%s1 • %s2 kill"
+		"Player_Cash_Award_Bomb_Planted"				" +$%s1 • Bomb planted"
+		"Player_Cash_Award_Bomb_Defused"				" +$%s1 • Bomb defused"
+		"Player_Cash_Award_Rescued_Hostage"				" +$%s1 • Hostage rescued"
+		"Player_Cash_Award_Interact_Hostage"			" +$%s1 • Hostage reached"
+		"Player_Cash_Award_Respawn"						" +$%s1 • Respawn"
+		"Player_Cash_Award_Get_Killed"					" +$%s1 • Eliminated"
+		"Player_Cash_Award_Damage_Hostage"				" -$%s1 • Hostage wounded"
+		"Player_Cash_Award_Kill_Hostage"				" -$%s1 • Hostage killed"		
+		"Team_Cash_Award_T_Win_Bomb"					" +$%s1 • Bomb detonated"
+		"Team_Cash_Award_Elim_Hostage"					" +$%s1 • Team elimination"
+		"Team_Cash_Award_Elim_Bomb"						" +$%s1 • Team elimination"
+		"Team_Cash_Award_Win_Time"						" +$%s1 • Out of time"
+		"Team_Cash_Award_Win_Defuse_Bomb"				" +$%s1 • Bomb defused"
+		"Team_Cash_Award_Win_Hostages_Rescue"			" +$%s1 • Hostages rescued"
+		"Team_Cash_Award_Win_Hostage_Rescue"			" +$%s1 • Hostage rescued"
+		"Team_Cash_Award_Loser_Bonus"					" +$%s1 • Round lost"
+		"Team_Cash_Award_Loser_Zero"					" -$%s1 • Dead players on losing team"
+		"Team_Cash_Award_Rescued_Hostage"				" +$%s1 • Hostage rescued"
+		"Team_Cash_Award_Hostage_Interaction"			" +$%s1 • Hostage reached"
+		"Team_Cash_Award_Hostage_Alive"					" +$%s1 • Hostages survived"
+		"Team_Cash_Award_Planted_Bomb_But_Defused"		" +$%s1 • Bomb planted"
+		"Team_Cash_Award_no_income"						" +$0 • Out of time and survived"
+		"Team_Cash_Award_no_income_suicide"				" +$0 • Suicide"
+		"Team_Cash_Award_Generic"						" +$%s1 • Team award"
+		"Team_Cash_Award_Custom"						" +$%s1 • %s2"
 		
 	// GRENADE MESSAGES (CHAT)
 		
-		"SFUI_TitlesTXT_Fire_in_the_hole" 				"Grenade"
-		"SFUI_TitlesTXT_Molotov_in_the_hole" 			"Molotov"
-		"SFUI_TitlesTXT_Incendiary_in_the_hole" 		"Incendiary"
-		"SFUI_TitlesTXT_Flashbang_in_the_hole" 			"Flash"
-		"SFUI_TitlesTXT_Smoke_in_the_hole" 				"Smoke"
-		"SFUI_TitlesTXT_Decoy_in_the_hole" 				"Decoy"
+		"SFUI_TitlesTXT_Fire_in_the_hole" 				"*Grenade*"
+		"SFUI_TitlesTXT_Molotov_in_the_hole" 			"*Molotov*"
+		"SFUI_TitlesTXT_Incendiary_in_the_hole" 		"*Incendiary*"
+		"SFUI_TitlesTXT_Flashbang_in_the_hole" 			"*Flash*"
+		"SFUI_TitlesTXT_Smoke_in_the_hole" 				"*Smoke*"
+		"SFUI_TitlesTXT_Decoy_in_the_hole" 				"*Decoy*"
 		
 // ---------------------------------------------------------------------------------------------
 }
