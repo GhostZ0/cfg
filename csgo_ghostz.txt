@@ -8,23 +8,23 @@
 		// Titles.txt strings
 		"Cstrike_TitlesTXT_Bomb_Defused"									"Bomb defused"
 		"Cstrike_TitlesTXT_Bomb_Planted"									"Bomb planted\n%s1 seconds left"
-		"Cstrike_TitlesTXT_Defusing_Bomb"							"*Defusing*"
-		"Cstrike_TitlesTXT_Planting_Bomb"							"*Planting*"
+		"Cstrike_TitlesTXT_Defusing_Bomb"							"DEFUSING"
+		"Cstrike_TitlesTXT_Planting_Bomb"							"PLANTING"
 		
 		"Cstrike_TitlesTXT_Game_teammate_attack"							"%s1 attacked a teammate"
 
-		"Game_radio"					"%s1 : %s2"
-		"Game_radio_location"				"%s1 @ %s2 : %s3"
-		"Cstrike_Chat_CT_Loc"				"(CT) %s1 @ %s3 : %s2"
-		"Cstrike_Chat_CT"				"(CT) %s1 : %s2"
-		"Cstrike_Chat_T_Loc"				"(T) %s1 @ %s3 : %s2"
-		"Cstrike_Chat_T"				"(T) %s1 : %s2"
-		"Cstrike_Chat_CT_Dead"				"*DEAD*(CT) %s1 : %s2"
-		"Cstrike_Chat_T_Dead"				"*DEAD*(T) %s1 : %s2"
-		"Cstrike_Chat_Spec"				"(SPEC) %s1 : %s2"
-        "Cstrike_Chat_All"				"%s1 : %s2"
-		"Cstrike_Chat_AllDead"				"*DEAD* %s1 : %s2"
-        "Cstrike_Chat_AllSpec"				"*SPEC* %s1 : %s2"
+		"Game_radio"					" %s1: %s2"
+		"Game_radio_location"				" %s1﹫ %s2 : %s3"
+		"Cstrike_Chat_CT_Loc"				" [CT] %s1﹫ %s3: %s2"
+		"Cstrike_Chat_CT"				" [CT] %s1: %s2"
+		"Cstrike_Chat_T_Loc"				" [T] %s1﹫ %s3: %s2"
+		"Cstrike_Chat_T"				" [T] %s1: %s2"
+		"Cstrike_Chat_CT_Dead"				" [CT] %s1 [DEAD]: %s2"
+		"Cstrike_Chat_T_Dead"				" [T] %s1 [DEAD]: %s2"
+		"Cstrike_Chat_Spec"				" [SPEC] %s1: %s2"
+        "Cstrike_Chat_All"				" %s1: %s2"
+		"Cstrike_Chat_AllDead"				" %s1 [DEAD]: %s2"
+        "Cstrike_Chat_AllSpec"				" [SPEC] %s1: %s2"
 
 		"Cstrike_game_join_spectators"	"%s1 > Spectators\n"
 		"Cstrike_game_join_terrorist"	"%s1 > 	T\n"
@@ -95,7 +95,7 @@
 		"Team_Cash_Award_Generic"							" +$%s1 • Team award"
 		"Team_Cash_Award_Custom"							" +$%s1 • %s2"
 
-		"Notice_Teammate_Death_Location"				"%s1 died @ %s2"
+		"Notice_Teammate_Death_Location"				"%s1 died ﹫ %s2"
 
 		"DeathPanel_DamageTaken"		"<font color='#A0A0A0'>Damage taken:  </font><font color='#FF0000'><b>%s1</b></font> <font color='#A0A0A0'> in</font> <font color='#FF0000'><b>%s2 hit </b></font> <font color='#A0A0A0'>from %s3</font>"
 		"DeathPanel_DamageGiven"		"<font color='#A0A0A0'>Damage given:  </font><font color='#00FF00'><b>%s1</b></font> <font color='#A0A0A0'> in</font> <font color='#00FF00'><b>%s2 hit </b></font> <font color='#A0A0A0'>to %s3</font>"
@@ -108,6 +108,12 @@
 		"CSGO_Inventory_Team_CT"						""
 		"CSGO_Inventory_Team_T"							""
 
+		///////////////////////////////////////////////////////////////////////
+		// VOTING
+		///////////////////////////////////////////////////////////////////////
+
+		"SFUI_match_abort_match_vac_live"	" VAC Live has detected a cheater and ended the match.\nThis match will not affect your Skill Group."
+
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//HUD: Help/Medals/Defuse Info Panel
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -115,26 +121,26 @@
 		"SFUIHUD_InfoPanel_DefuseText"			"Defusing."
 		"SFUIHUD_InfoPanel_DefuseText_NoKit"	"Defusing without a kit."
 		"SFUIHUD_InfoPanel_Spec_DefuseText"			"{s:s1} is defusing."
-		"SFUIHUD_InfoPanel_Spec_DefuseText_NoKit"	"{s:s1} is defusing\nwithout a kit."
+		"SFUIHUD_InfoPanel_Spec_DefuseText_NoKit"	"{s:s1} is defusing without a kit."
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Notice Text
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 		"SFUI_Notice_Got_Bomb"							"You got the bomb"
-		"SFUI_Notice_Hint_Bot_Takeover"					"PLAYING AS BOT {s:s1}"
+		"SFUI_Notice_Hint_Bot_Takeover"					"Controlling BOT {s:s1}"
 		"SFUI_Notice_YouDroppedWeapon"				"Dropped %s1"
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		// Grenade Text
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-		"SFUI_TitlesTXT_Fire_in_the_hole"			"*Grenade*"
-		"SFUI_TitlesTXT_Molotov_in_the_hole"		"*Molotov*"
-		"SFUI_TitlesTXT_Incendiary_in_the_hole"		"*Incendiary*"
-		"SFUI_TitlesTXT_Flashbang_in_the_hole"		"*Flash*"
-		"SFUI_TitlesTXT_Smoke_in_the_hole"			"*Smoke*"
-		"SFUI_TitlesTXT_Decoy_in_the_hole"			"*Decoy*"
+		"SFUI_TitlesTXT_Fire_in_the_hole"			"Grenade"
+		"SFUI_TitlesTXT_Molotov_in_the_hole"		"Molotov"
+		"SFUI_TitlesTXT_Incendiary_in_the_hole"		"Incendiary"
+		"SFUI_TitlesTXT_Flashbang_in_the_hole"		"Flash"
+		"SFUI_TitlesTXT_Smoke_in_the_hole"			"Smoke"
+		"SFUI_TitlesTXT_Decoy_in_the_hole"			"Decoy"
 
 		////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		//Play menu
