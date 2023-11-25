@@ -13,6 +13,6 @@ knifechanger.cfg - Give yourself any vanilla knife
 ## Where do I put these?
 autoexec.cfg/knifechanger.cfg > ...\Counter-Strike Global Offensive\game\csgo\cfg
 
-cs2_video.txt > ...\Steam\userdata\<id>\730\local\cfg
+cs2_video.txt > ...\Steam\userdata\(id)\730\local\cfg
 
 csgo_ghostz.txt > ...\Counter-Strike Global Offensive\game\csgo\resource
