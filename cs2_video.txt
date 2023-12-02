@@ -1,4 +1,4 @@
-//Replace these settings in your file, make sure that you set your shadow quailty to low beforehand
+//Set Global Shadow Quality setting to Low then change these settings in your file
 "setting.csm_max_shadow_dist_override"		"720"
 "setting.lb_shadow_texture_width_override"		"2048"
 "setting.lb_shadow_texture_height_override"		"3072"
